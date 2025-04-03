@@ -1,5 +1,6 @@
 #include <iostream>
 
+// used for returning two variables from one method.
 struct Fraction {
     int numerator;
     int denominator;
