@@ -4,6 +4,9 @@
 struct Fraction {
     int numerator;
     int denominator;
+    std::string to_string() const {
+        return std::to_string(numerator) + "/" + std::to_string(denominator);
+    }
 };
 
 bool recursiveIsPowerOf2(int num) {
@@ -109,7 +112,10 @@ Fraction fractionSimplifier(int nu, int  de) {
 
 void fractionSimplifierTest() {
     if (fractionSimplifier(2,4).numerator == 1 && fractionSimplifier(2,4).denominator == 2
-        && fractionSimplifier(2,3).numerator == 2 && fractionSimplifier(2,3).denominator == 3) {
+        && fractionSimplifier(2,3).numerator == 2 && fractionSimplifier(2,3).denominator == 3
+        && fractionSimplifier(3,2).numerator == 3 && fractionSimplifier(3,2).denominator == 2
+        && fractionSimplifier(12,14).numerator == 6 && fractionSimplifier(12,14).denominator == 7
+        && fractionSimplifier(12,18).numerator == 2 && fractionSimplifier(12,18).denominator == 3) {
         std::cout<<"PASS"<<std::endl;
     }
     else {
