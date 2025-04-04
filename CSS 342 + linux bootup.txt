@@ -1,0 +1,102 @@
+﻿https://drive.google.com/file/d/1psKN36DLZVEaAzLLcsC0Wd75QiuO29eX/view
+
+
+The root folder within a linux machine is “/”. 
+
+
+Linux users basically goon in command line interfaces
+
+
+Pwd tells you the location of files in linux.
+
+
+Besides the root folder, “/” tells you if something is the root folder of another thing.
+
+
+The command line specifies which directory you are currently working in.
+
+
+Cd moves you around directories. 
+
+
+Linux automation involves saving commands in text files and you can import text files with command.
+
+
+Vim is epic.
+
+
+Mkdir creates a directory.
+mv is moving or modifying files
+cp means copy files
+rm means remove or delete
+
+
+There is tab completion within linux
+
+
+For rm, there is a -i which inquires you if you want to do that.
+
+
+A lot of linux systems have you create your own settings file that linux asks you about which automatically enables -i mode.
+
+
+-r allows you to copy and delete files recursively and they allow you to do this for directories.
+
+
+DO NOT DO rm -r /*
+
+
+Piping and redirection are just arrows and pipes that allows you to redirect or pipe files as different inputs and outputs.
+
+
+You can kill the current process with ctrl c
+Exit a text stream input: Ctrl-d
+Kill a process from elsewhere: kill -9 pid
+
+
+Compilers are commands in linux
+
+
+G++ is one of them. You compile the program first, obtain the object file, and then you link the object file to create an executable.
+
+
+Tar cvf creates “tape archives” and its a group essentially like a folder zip file.
+Tar xvf extracts the tar archive.
+
+
+Secure copy is basically “scp” and you have to specify the machines doing the copying. You can use this to copy to different computers.
+
+
+“Scripting” is basically putting commands into a text file and then you just run the text file.
+
+
+Git and Github address issues with version control
+
+
+CVS is a centralized version control system where only one person can edit a file at the same time.
+
+
+Forking basically means cloning the repository. 
+
+
+Committing is sharing and pulling is sharing.
+
+
+Include keywords in C++ yoinks the file and takes their lines of code and incorporates it within the code.
+
+
+Always make your test code first before making the actual code.
+
+
+Struct instance fields are public while Class are private on default.
+
+
+You can directly return return {0, 1} to refer to the class/struct
+
+
+You can toString in C++
+
+
+ std::string to_string() const {
+            return std::to_string(numerator) + "/" + std::to_string(denominator);
+        }
